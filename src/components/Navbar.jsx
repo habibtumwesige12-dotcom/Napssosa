@@ -9,6 +9,7 @@ const links = [
   { label: 'Alumni', to: '/alumni', dropdown: true },
   { label: 'Projects', to: '/projects', dropdown: true },
   { label: 'Events', to: '/events' },
+  { label: 'Governance', to: '/governance' },
   { label: 'Gallery', to: '/gallery' },
   { label: 'Contact Us', to: '/contact' },
 ]
@@ -22,7 +23,7 @@ export default function Navbar() {
         <div className={styles.badge}>N</div>
         <div className={styles.logoText}>
           <strong>NAPSSOSA</strong>
-          <span>Nabingoola Public School<br />Old Students Association</span>
+          <span>Nabingoola Public Secondary School<br />Old Students Association</span>
         </div>
       </Link>
 

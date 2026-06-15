@@ -9,109 +9,139 @@ export default function AboutPage() {
       </div>
 
       <div className={styles.container}>
+
+        {/* PREAMBLE */}
         <section className={styles.section}>
-          <h2>Who We Are</h2>
+          <h2>Preamble</h2>
           <p>
-            NAPSSOSA — the Nabingoola Public Secondary School Old Students Association —
-            is a community of former students bound together by a shared heritage and a
-            common commitment to the continued growth of our alma mater. We are Old Girls
-            and Old Boys who carry the values, discipline, and spirit of Nabingoola
-            wherever life has taken us, and who believe that those same values place on
-            us a responsibility to give back.
+            We, the former students of Nabingoola Public Secondary School Old Students
+            Association, recognising the value of unity, service, and giving back to our
+            alma mater, and desiring to promote the welfare of members and the development
+            of the school, do hereby adopt and enact this constitution to govern the affairs
+            of our Association.
           </p>
         </section>
 
+        {/* ARTICLE 1 */}
         <section className={styles.section}>
-          <h2>Our Aims &amp; Objectives</h2>
-          <p>
-            At the heart of NAPSSOSA lies a set of clearly defined objectives that guide
-            everything we do. These objectives reflect our collective ambition — not only
-            to honour the institution that shaped us, but to actively invest in its future
-            and in the futures of those who walk its corridors today.
-          </p>
+          <h2>Article 1: Name, Office &amp; Motto</h2>
+          <div className={styles.infoGrid}>
+            <div className={styles.infoItem}>
+              <span className={styles.infoLabel}>Name</span>
+              <span>Nabingoola Public Secondary School Old Students Association (NAPSSOSA)</span>
+            </div>
+            <div className={styles.infoItem}>
+              <span className={styles.infoLabel}>Registered Office</span>
+              <span>Nabingoola Public Secondary School, Mubende District, Uganda</span>
+            </div>
+            <div className={styles.infoItem}>
+              <span className={styles.infoLabel}>Motto</span>
+              <span>&ldquo;Connecting Generations, Inspiring Success&rdquo;</span>
+            </div>
+            <div className={styles.infoItem}>
+              <span className={styles.infoLabel}>Emblem &amp; Colours</span>
+              <span>As approved by the General Assembly</span>
+            </div>
+          </div>
+        </section>
 
+        {/* ARTICLE 2 */}
+        <section className={styles.section}>
+          <h2>Article 2: Aims &amp; Objectives</h2>
           <div className={styles.objectives}>
             <div className={styles.objective}>
-              <span className={styles.number}>01</span>
+              <span className={styles.number}>2.1</span>
               <div>
                 <h3>Unity &amp; Lifelong Fellowship</h3>
-                <p>
-                  We seek to unite all former students of Nabingoola Public Secondary School
-                  and foster lifelong fellowship. Regardless of year of graduation, profession,
-                  or place of residence, every alumnus and alumna belongs to this family. That
-                  sense of belonging is the foundation upon which everything else is built.
-                </p>
+                <p>To unite all former students of Nabingoola Public Secondary School and foster lifelong fellowship.</p>
               </div>
             </div>
-
             <div className={styles.objective}>
-              <span className={styles.number}>02</span>
+              <span className={styles.number}>2.2</span>
               <div>
                 <h3>Resource Mobilisation &amp; School Development</h3>
-                <p>
-                  We are committed to mobilising resources and supporting projects that improve
-                  infrastructure, academics, and the general welfare of the school. From
-                  classroom facilities to library resources, we recognise that a well-equipped
-                  school environment is essential to quality education, and we take it upon
-                  ourselves to contribute to that environment.
-                </p>
+                <p>To mobilise resources and support projects that improve infrastructure, academics, and welfare at Nabingoola Public Secondary School.</p>
               </div>
             </div>
-
             <div className={styles.objective}>
-              <span className={styles.number}>03</span>
+              <span className={styles.number}>2.3</span>
               <div>
                 <h3>Mentorship, Guidance &amp; Scholarships</h3>
-                <p>
-                  NAPSSOSA is deeply invested in the growth of current students. Through
-                  mentorship programmes, career guidance, internship linkages, and scholarship
-                  opportunities, we aim to bridge the gap between where students are today and
-                  where they aspire to be. We walk that journey with them.
-                </p>
+                <p>To provide mentorship, career guidance, internship linkages, and scholarships to current students.</p>
               </div>
             </div>
-
             <div className={styles.objective}>
-              <span className={styles.number}>04</span>
+              <span className={styles.number}>2.4</span>
               <div>
                 <h3>Upholding the School's Reputation &amp; Values</h3>
-                <p>
-                  We are proud custodians of the reputation and values of Nabingoola Public
-                  Secondary School. We endeavour to uphold, protect, and promote what the
-                  school stands for — academic excellence, integrity, and service — both
-                  within our membership and in the broader community.
-                </p>
+                <p>To uphold, protect, and promote the reputation and values of Nabingoola Public Secondary School.</p>
               </div>
             </div>
-
             <div className={styles.objective}>
-              <span className={styles.number}>05</span>
+              <span className={styles.number}>2.5</span>
               <div>
                 <h3>Professional Networking &amp; Community Service</h3>
-                <p>
-                  We provide a platform for members to connect, collaborate, and grow
-                  professionally. Beyond individual advancement, we are committed to community
-                  service — channelling our collective expertise and resources toward the
-                  betterment of the communities we serve.
-                </p>
+                <p>To network members for professional growth and community service.</p>
               </div>
             </div>
-
             <div className={styles.objective}>
-              <span className={styles.number}>06</span>
+              <span className={styles.number}>2.6</span>
               <div>
                 <h3>Advancing Our Mission Through Lawful Activity</h3>
-                <p>
-                  We reserve the right to engage in any lawful activity that advances the
-                  objectives of the association. Our commitment is to remain adaptable,
-                  responsive, and purposeful in everything we undertake — always with the
-                  school's legacy and our members' interests at the forefront.
-                </p>
+                <p>To engage in any lawful activity that advances the objectives of the Association.</p>
               </div>
             </div>
           </div>
         </section>
 
+        {/* ARTICLE 3 */}
+        <section className={styles.section}>
+          <h2>Article 3: Membership</h2>
+          <p>
+            Membership is open to any person who attended Nabingoola Public Secondary School
+            for at least one full term.
+          </p>
+
+          <div className={styles.membershipGrid}>
+            <div className={styles.memberCard}>
+              <h3>Ordinary Member</h3>
+              <p>Pays annual subscription of UGX 20,000. Has full voting rights.</p>
+            </div>
+            <div className={styles.memberCard}>
+              <h3>Life Member</h3>
+              <p>Pays a one-time fee as set by AGM. Has full voting rights and is exempt from annual fees.</p>
+            </div>
+            <div className={styles.memberCard}>
+              <h3>Honorary Member</h3>
+              <p>Conferred by AGM on persons who rendered outstanding service. No voting rights, no subscription.</p>
+            </div>
+          </div>
+
+          <div className={styles.memberRules}>
+            <div className={styles.rule}>
+              <strong>Admission</strong>
+              <span>Application on prescribed form + payment of registration fee. Approved by Executive Committee.</span>
+            </div>
+            <div className={styles.rule}>
+              <strong>Rights</strong>
+              <span>Vote, be elected, attend meetings, access minutes/accounts, and propose motions.</span>
+            </div>
+            <div className={styles.rule}>
+              <strong>Duties</strong>
+              <span>Pay subscriptions, obey the constitution, attend meetings, and promote NAPSSOSA objectives.</span>
+            </div>
+            <div className={styles.rule}>
+              <strong>Cessation</strong>
+              <span>Membership ends by resignation, death, failure to pay fees for 2 consecutive years, or expulsion.</span>
+            </div>
+            <div className={styles.rule}>
+              <strong>Discipline</strong>
+              <span>A member acting against NAPSSOSA interests may be suspended or expelled by a ⅔ vote of the Executive Committee. Right of appeal to AGM within 30 days.</span>
+            </div>
+          </div>
+        </section>
+
+        {/* COMMITMENT */}
         <section className={styles.section}>
           <h2>Our Commitment</h2>
           <p>
@@ -122,6 +152,7 @@ export default function AboutPage() {
             Nabingoola forward.
           </p>
         </section>
+
       </div>
     </main>
   )

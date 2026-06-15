@@ -12,6 +12,7 @@ const links = [
   { label: 'Home', to: '/' },
   { label: 'About Us', to: '/about' },
   { label: 'School', to: '/school' },
+  { label: 'Governance', to: '/governance' },
   { label: 'Events', to: '/events' },
   { label: 'Contact Us', to: '/contact' },
 ]
@@ -26,7 +27,7 @@ export default function Footer() {
             <div className={styles.badge}>N</div>
             <div>
               <strong>NAPSSOSA</strong>
-              <span>Nabingoola Public School<br />Old Students Association</span>
+              <span>Nabingoola Public Secondary School<br />Old Students Association</span>
             </div>
           </div>
           <p>

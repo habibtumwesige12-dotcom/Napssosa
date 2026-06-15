@@ -6,6 +6,7 @@ import Home from './pages/Home'
 import School from './pages/School'
 import AboutPage from './pages/AboutPage'
 import EventsPage from './pages/EventsPage'
+import GovernancePage from './pages/GovernancePage'
 import './index.css'
 
 export default function App() {
@@ -20,6 +21,7 @@ export default function App() {
             <Route path="/school" element={<School />} />
             <Route path="/about" element={<AboutPage />} />
             <Route path="/events" element={<EventsPage />} />
+            <Route path="/governance" element={<GovernancePage />} />
           </Routes>
         </div>
         <Footer />
